@@ -91,7 +91,7 @@ export default function Intro() {
         >
           👉
         </motion.span>{" "}
-        I'm a <span className="font-bold">{profile.title}</span> with{" "}
+        I'm an <span className="font-bold">{profile.title}</span> with{" "}
         <span className="font-bold">{profile.experience}</span> of experience. I
         enjoy <span className="italic">{profile.likes}</span>.
       </motion.h1>

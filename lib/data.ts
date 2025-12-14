@@ -36,7 +36,7 @@ export const profile = {
   avatar: "/IMG20241223200741.jpg",
   email: process.env.NEXT_PUBLIC_CONTACT_EMAIL,
   name: "Premanshu Das Biswas",
-  title: "SDE Enthusiast",
+  title: "aspiring Software Engineer",
   experience: `${experienceInYears} years`,
   likes: "building web and mobile apps",
   resumeLink: `https://drive.google.com/file/d/1iWi8lICL307muEl19yzl-TbjzLvaQhsJ/view?usp=drive_link`,
@@ -76,7 +76,7 @@ export const experiencesData = [
     title: "B.D.M.International",
     location: "Kolkata, West Bengal, IND",
     description:
-      "Completed Higher Seconday Examinations, Participated in various Science and English Olympiads,have been part of the Official School Cricket Team, Always lead from the front being the Captain.",
+      "Completed Higher Seconday Examinations, Participated in various Science and English Olympiads,served as Team Captain of School Cricket Team, demonstrating leadership and teamwork skills.",
     icon: React.createElement(CgWorkAlt),
     date: "2020",
   },
@@ -84,7 +84,7 @@ export const experiencesData = [
     title: "Techno Main Polytechnic Salt Lake",
     location: "Kolkata, West Bengal, IND",
     description:
-      "Completed Diploma In Computer Science & Technology - CGPA : 8.8,part of Management Team in HLV 2k22, part of Management & Sponsership Team in CSE United",
+      "Completed Diploma In Computer Science & Technology - CGPA : 8.8,Actively contributed to the Management Team in HLV 2k22 and the Management & Sponsorship Team of CSE United. Built strong fundamentals in programming and computer systems.",
       
     icon: React.createElement(CgWorkAlt),
     date: "2020 - 2021",
@@ -96,6 +96,30 @@ export const experiencesData = [
       "Pursuing B.Tech in Computer Science & Engineering, Participated in Smart India Hackathon 2k24 and Smart India Hackathon 2k25",
     icon: React.createElement(CgWorkAlt),
     date: "2021 - 2024",
+  },
+  {
+    title: "Academy of Skill Development (ASD)",
+    location: "Salt Lake, Kolkata, IND",
+    description:
+      "Completed a 12-week Full Stack MERN Internship. Built and deployed a full-stack E-Commerce application using React, Node.js, Express, and MongoDB. Gained hands-on experience in REST APIs, authentication, and backend business logic.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Jul 2025 - Sep 2025",
+  },
+  {
+    title: "Deloitte (Forage)",
+    location: "Remote",
+    description:
+      "Completed a Data Analytics Virtual Job Simulation. Worked on real-world tasks involving data analysis and forensic technology, gaining exposure to analytical problem-solving and professional data workflows.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Apr 2025",
+  },
+  {
+    title: "JPMorgan Chase & Co. (Forage)",
+    location: "Remote",
+    description:
+      "Completed a Software Engineering Job Simulation. Worked on backend-focused tasks including project setup, Kafka integration, H2 database integration, REST API development, and controller implementation.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Dec 2025",
   },
 ] as const;
 
