@@ -55,7 +55,7 @@ export default function Project({
                 "transition transform z-10 translate-y-8 ease-in-out invisible absolute group-hover:visible  rounded-full right-8 top-4 group-hover:translate-y-0"
               }
             >
-              <a href={url}>View</a>
+              <a href={url} target="_blank" rel="noopener noreferrer">Live View</a>
             </Button>
           )}
         </div>

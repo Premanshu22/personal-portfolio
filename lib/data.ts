@@ -1,6 +1,8 @@
 import cams from "@/public/cams.png";
 import GreenEdu from "@/public/GreenEdu.png";
 import vcardportfolioImg from "@/public/vcardportfolio.png";
+import zyntra from "@/public/zyntra.png";
+import elixir from "@/public/Elixir.png";
 
 import { CgWorkAlt } from "react-icons/cg";
 import { FaJava, FaPhp, FaAws, FaReact, FaRaspberryPi } from "react-icons/fa";
@@ -39,7 +41,7 @@ export const profile = {
   title: "aspiring Software Engineer",
   experience: `${experienceInYears} years`,
   likes: "building web and mobile apps",
-  resumeLink: `https://drive.google.com/file/d/1iWi8lICL307muEl19yzl-TbjzLvaQhsJ/view?usp=drive_link`,
+  resumeLink: "#",
   linkedInLink: "https://www.linkedin.com/in/premanshu-das-biswas-38562a205/",
   githubLink: "https://github.com/Premanshu22",
 } as const;
@@ -85,7 +87,7 @@ export const experiencesData = [
     location: "Kolkata, West Bengal, IND",
     description:
       "Completed Diploma In Computer Science & Technology - CGPA : 8.8,Actively contributed to the Management Team in HLV 2k22 and the Management & Sponsorship Team of CSE United. Built strong fundamentals in programming and computer systems.",
-      
+
     icon: React.createElement(CgWorkAlt),
     date: "2020 - 2021",
   },
@@ -106,7 +108,7 @@ export const experiencesData = [
     date: "Jul 2025 - Sep 2025",
   },
   {
-    title: "Deloitte (Forage)",
+    title: "Deloitte",
     location: "Remote",
     description:
       "Completed a Data Analytics Virtual Job Simulation. Worked on real-world tasks involving data analysis and forensic technology, gaining exposure to analytical problem-solving and professional data workflows.",
@@ -114,12 +116,28 @@ export const experiencesData = [
     date: "Apr 2025",
   },
   {
-    title: "JPMorgan Chase & Co. (Forage)",
+    title: "JPMorgan Chase & Co.",
     location: "Remote",
     description:
       "Completed a Software Engineering Job Simulation. Worked on backend-focused tasks including project setup, Kafka integration, H2 database integration, REST API development, and controller implementation.",
     icon: React.createElement(CgWorkAlt),
     date: "Dec 2025",
+  },
+  {
+    title: "AWS Academy",
+    location: "Certified",
+    description:
+      "Machine Learning Graduate & Cloud Practitioner",
+    icon: React.createElement(CgWorkAlt),
+    date: "Dec 2025",
+  },
+  {
+    title: "Pwc India",
+    location: "Kolkata",
+    description:
+      "Software Developer",
+    icon: React.createElement(CgWorkAlt),
+    date: "Current",
   },
 ] as const;
 
@@ -130,7 +148,7 @@ export const projectsData = [
       "An Gamified Enviornmental Learning Platform, A gamified mobile/web platform that helps learn in practical way.Tracking of eco-points, enabling school-level competitions.Rewards for sustainable practices through digital badges and recognition.",
     tags: ["React", "NodeJS", "Supabase"],
     imageUrl: GreenEdu,
-    url: "",
+    url: "#",
   },
   {
     title: "Online University Admission Management System",
@@ -138,7 +156,21 @@ export const projectsData = [
       "A seamless online university admission management platform. Cams allows users to take admission, submit forms, get info about notices, etc",
     tags: ["PHP", "CSS", "MySQL"],
     imageUrl: cams,
-    url: "",
+    url: "#",
+  },
+  {
+    title: "Zyntra Gaming Platform",
+    description: "An immersive gaming website concept built with modern UI and interactive design. The platform features cinematic hero sections, smooth transitions, and engaging layouts designed to create a powerful digital experience for gaming communities and esports brands.",
+    tags: ["Next.js", "TailwindCSS", "GSAP"],
+    imageUrl: zyntra,
+    url: "https://zyntra-seven.vercel.app/",
+  },
+  {
+    title: "Elixir — Premium Cocktail Experience",
+    description: "A luxury-inspired website designed for a premium cocktail brand. The site focuses on elegant typography, rich visuals, and smooth interactions to create a refined digital experience that highlights craftsmanship, atmosphere, and brand storytelling.",
+    tags: ["React", "TailwindCSS", "Framer Motion"],
+    imageUrl: elixir,
+    url: "https://elixir-gsap.vercel.app/",
   },
   {
     title: "Vcard Portfolio",
@@ -150,7 +182,7 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-    { name: "Java", icon: FaJava },
+  { name: "Java", icon: FaJava },
   { name: "HTML", icon: RiHtml5Line },
   { name: "CSS", icon: RiCss3Line },
   { name: "JavaScript", icon: RiJavascriptLine },

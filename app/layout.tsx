@@ -3,7 +3,6 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import ActiveSectionContextProvider from "@/context/active-section-context";
 import Footer from "@/components/footer";
-import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
 import { profile } from "@/lib/data";
@@ -13,6 +12,8 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: `${profile.name} | Personal Portfolio | ${profile.title}`,
   description: `${profile.name} is a ${profile.title} with ${profile.experience} of experience.`,
+  keywords: ["portfolio", "developer", "software engineer", "frontend", "backend", "fullstack", profile.name],
+  authors: [{ name: profile.name }],
   icons: {
     icon: "/favicon.png",
     shortcut: "/favicon.png",
@@ -45,7 +46,6 @@ export default function RootLayout({
             <Footer />
 
             <Toaster position="top-right" />
-            <ThemeSwitch />
           </ActiveSectionContextProvider>
         </ThemeContextProvider>
       </body>
